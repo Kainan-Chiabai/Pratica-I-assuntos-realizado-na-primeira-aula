@@ -16,13 +16,13 @@ class PraticaI{ // main do codigo
         double a,b,c;
         Console.WriteLine("digite o Valor de a:"); // imprimir na tela a função a ser realizada
         a = double.Parse(Console.ReadLine());// entrada de valor via teclado para A
-        
+
         Console.WriteLine("digite o Valor de b:"); // imprimir na tela a função a ser realizada
         b = double.Parse(Console.ReadLine());// entrada de valor via teclado para B
-        
+
         Console.WriteLine("digite o Valor de c:");// imprimir na tela a função a ser realizada
         c = double.Parse(Console.ReadLine()); //entrada de valor via teclado para C
-        
+
         double[] z = zeros(a, b, c); // entrada de valor para a função zeros      
         for (int i = 0; i < 2; i++)
         { // condição de repetição para imprimir os valores de z
