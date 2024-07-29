@@ -1,8 +1,7 @@
 using System;// entrada para uso
 
 class PraticaI{ // main do codigo
-    static double[] zeros(double a, double b, double c)
-    {//função zero
+    static double[] zeros(double a, double b, double c){//função zero
         double[] z = new double[2];// declarção para vetor
         double delta = b * b - 4 * a * c; // calculo do delta
 
